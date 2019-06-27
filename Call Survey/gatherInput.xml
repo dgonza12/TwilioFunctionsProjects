@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather action="https://runtimedomain/ProcessSurvey?worker={{worker}}" input="dtmf" timeout="10" numDigits="1">
+        <Say>{{worker}} Please Review your call 1 to 5</Say>
+    </Gather>
+</Response>
